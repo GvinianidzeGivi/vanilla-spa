@@ -25,7 +25,7 @@ let UsersPage = {
             <section class="section">
                 <button id='go-forward' class='btn btn--dark'>go forward</button>
                 <input id="search" type="text" placeholder='search by criteria'/>
-                <h1> Users </h1>
+                <h1 class='text-center'> Users </h1>
                 <ul class='card'>
                      ${
                        users

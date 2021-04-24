@@ -44,7 +44,6 @@ let UserDetailsPage = {
     let request = Parser.parseRequestURL();
     let user = await getUser(request.id);
     let userRepos = await getUserRepos(request.id);
-    console.log(userRepos);
 
     return `
             <div>

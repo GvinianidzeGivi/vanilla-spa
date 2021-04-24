@@ -4,7 +4,7 @@ import UserDetailsPage from "../pages/user-details.page.js";
 
 const routes = {
   "/": UsersPage,
-  "/repos": ReposPage,
+  "/repositories": ReposPage,
   "/users": UsersPage,
   "/user/:id": UserDetailsPage,
 };

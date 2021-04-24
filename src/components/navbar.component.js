@@ -7,7 +7,7 @@ let NavbarComponent = {
                         <a class='navbar__link' href="/#/users/">USERS</a>
                     </li>
                     <li class='navbar__item'>
-                    <a class='navbar__link' href="/#/repos">REPOS</a>
+                    <a class='navbar__link' href="/#/repositories">REPOSITORIES</a>
                     </li>
                 </ul>
             </nav>

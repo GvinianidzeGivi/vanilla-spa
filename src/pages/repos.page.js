@@ -24,7 +24,7 @@ let ReposPage = {
     let view = `
             <section class="section">
               <button id='go-back' class='btn btn--dark'>Go Back</button>
-                <h1 class='text-center'> Repos </h1>
+                <h1 class='text-center'> Repositories </h1>
                 <ul class='card'>
                     ${repos.map(
                       (repo) =>

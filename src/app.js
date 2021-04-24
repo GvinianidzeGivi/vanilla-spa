@@ -2,15 +2,21 @@
 
 import ErrorPage from "./pages/error.page.js";
 import NavbarComponent from "./components/navbar.component.js";
+import SearchComponent from "./components/search.component.js";
+
 import Parser from "./utils/parser.js";
 import routes from "./routes/routes.js";
 
 const router = async () => {
   const header = document.getElementById("header");
+  const search = document.getElementById("search");
   const main = document.getElementById("root");
 
   header.innerHTML = await NavbarComponent.render();
   await NavbarComponent.after_render();
+
+  search.innerHTML = await SearchComponent.render();
+  await SearchComponent.after_render();
 
   let request = Parser.parseRequestURL();
 
