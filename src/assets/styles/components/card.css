@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__item {
+  text-align: center;
+  flex: 20%;
+}
+
+.card__title {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}

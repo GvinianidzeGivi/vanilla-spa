@@ -1,0 +1,13 @@
+/* base */
+@import "./assets/styles/base/reset.css";
+/* components */
+@import "./assets/styles/components/button.css";
+@import "./assets/styles/components/navbar.css";
+@import "./assets/styles/components/card.css";
+
+/* utilities */
+@import "./assets/styles/utilities/classes.css";
+
+:root {
+  --nav-link-color: #151e27;
+}

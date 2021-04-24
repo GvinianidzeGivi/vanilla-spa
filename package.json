@@ -1,0 +1,11 @@
+{
+  "name": "sfl-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "author": "",
+  "license": "ISC"
+}
